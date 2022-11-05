@@ -1,14 +1,23 @@
-package tanu31;
+/*write a program to display following pattern
+    1
+   10
+  101
+ 1010
+10101 */
 
-public class Pattern {
+package tanu31;//importing package
 
-public static void main(String[] args) {
-	int n=5;
+public class Pattern 
+{
+
+public static void main(String[] args) //main method
+{
+	int n=5; //local variables
 	Pp(n);
 	Pp1(n);
 }
 
-public static void Pp(int n)
+public static void Pp(int n) 
 {
 	for (int i=0;i<n;i++)
 	{
