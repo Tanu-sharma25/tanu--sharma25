@@ -1,21 +1,34 @@
-package tanu31;
+/*write a program to display following pattern
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+  */
 
-import java.util.Scanner;
+package tanu31; //importing package 
 
-public class Pattern4 {
-	public static void main(String[] args) {
+import java.util.Scanner; //importing scanner class
+
+public class Pattern4 //declaring class
+{
+	public static void main(String[] args) //declaring main method
+	{
 		// TODO Auto-generated method stub
 
-		 Scanner sc = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in); //accept the user input
 		    System.out.println("Enter the number of rows: ");
-		    int rows = 5, k = 0;
+		    int rows = 5, k = 0; //declaring variables
 
-		    for (int i = 1; i <= rows; ++i, k = 0) {
-		      for (int space = 1; space <= rows - i; ++space) {
+		    for (int i = 1; i <= rows; ++i, k = 0) 
+		    {
+		      for (int space = 1; space <= rows - i; ++space) //displaying the space 
+		      {
 		        System.out.print("  ");
 		      }
 
-		      while (k != 2 * i - 1) {
+		      while (k != 2 * i - 1)
+		      {
 		        System.out.print("* "); 
 		        ++k;
 		      }
