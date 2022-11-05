@@ -1,8 +1,10 @@
-//Write a Program to accept your basic details
+//Write a Program to accept users basic details
 
-import java.util.*; 
-public class Student
+import java.util.*; //importing util package
+public class Student //class declaration
 { 
+  //variables to accept user input
+  
 private String name; 
 private int age; 
 private String address; 
@@ -12,7 +14,7 @@ private float percentage;
 
 public Student()
 {} 
-public Student(String name, int age, String address, String email, String gender, float percentage)
+public Student(String name, int age, String address, String email, String gender, float percentage)// declaring a student method with arguments 
 { 
 this.name = name; 
 this.age = age;
@@ -75,7 +77,7 @@ return "Name: " + name + ", Age: " + age + ", Address: " + address + ", Email: "
 } 
 public static void main(String[] args)
 { 
-Scanner sc = new Scanner(System.in); 
+Scanner sc = new Scanner(System.in); //scanner class to accept user input
 System.out.print("Name: ");
 String name = sc.nextLine(); 
 System.out.print("Age: "); 
