@@ -1,19 +1,21 @@
-//Q3)Write a program to display the following pattern
-package ors;
+//Q.4 Write a program to create online food order system
+package ors; //package
 
-import java.util.Scanner;
+import java.util.Scanner; //scanner pakage to accept user input
 
 
 
-public class DELIstar {
+public class DELIstar //declaring a class
+{ 
 
-	public static void main(String[] args) {
+	public static void main(String[] args) //main method
+	{
 		Order();
 
 	}
-	public static void Order()
+	public static void Order() //declaring method as order
 	{
-		Scanner n = new Scanner(System.in);
+		Scanner n = new Scanner(System.in); //scanner to take user input
 		
 		
 		int j, ch;
