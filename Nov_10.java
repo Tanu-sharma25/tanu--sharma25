@@ -1,5 +1,5 @@
 package tanu31;
-Q1:- 
+// Q1:- Write a program to perform the swapping of two no with third variable and without third variable using function 
 
  import java.util.Scanner; 
 
@@ -99,7 +99,7 @@ Q1:-
 
  -------------------------------- 
 
- Q2:- 
+// Q2:- Write a program to accept 5 students record from the user and calculate the grade and percentage. (accept name, roll_no, Marks of 5 Subject) Perform by using array and function
 
  import java.util.Scanner; 
 
@@ -257,7 +257,7 @@ Q1:-
 
  ------------------------------------------ 
 
- Q3:- 
+// Q3:- Write a program to accept size from user accordingly accept no from the user and find out the greater no, smaller no, display no in ascending and descending order (Using function and array)
 
  import java.util.Scanner; 
 
